@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #000000;
+    line-height: 1.8;
+}
+
+header {
+    background-color: #310303;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.profil {
+    display: flex;
+    gap: 30px;
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.profil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #1f2933;
+}
+
+.profil-text h2 {
+    margin-bottom: 15px;
+}
+
+.profil table td {
+    padding: 4px 10px 4px 0;
+}
+
+.opini {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.opini h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.opini p {
+    margin-bottom: 16px;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    background-color: #3f0808;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
